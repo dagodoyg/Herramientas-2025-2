@@ -25,7 +25,7 @@ for x in X:
 K = np.array(K)
 Y = (2/np.pi)*K
 
-plt.ylabel(r'$T/T*(phi0)$', size = 15)
+plt.ylabel(r'$\frac{T}{T*}(phi0)$', size = 15)
 plt.xlabel(r'$phi0$', size = 15)
 plt.plot(phi0,Y)
 plt.show()
